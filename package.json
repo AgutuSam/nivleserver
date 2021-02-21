@@ -1,6 +1,6 @@
 {
   "author": "Anuj Shah <anujshah584@gmail.com>",
-  "homepage": "http://AgutuSam.github.io/three",
+  "homepage": "https://AgutuSam.github.io/nivleserver",
   "dependencies": {
     "axios": "^0.21.1",
     "bcryptjs": "^2.4.3",
@@ -50,5 +50,8 @@
     "server": "nodemon server.js",
     "test": "mocha --timeout 10000"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.15.1"
+  }
 }
