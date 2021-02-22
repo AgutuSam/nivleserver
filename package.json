@@ -1,5 +1,5 @@
 {
-  "author": "Anuj Shah <anujshah584@gmail.com>",
+  "author": "",
   "homepage": "https://AgutuSam.github.io/nivleserver",
   "dependencies": {
     "axios": "^0.21.1",
@@ -40,10 +40,7 @@
   "license": "MIT",
   "main": "server.js",
   "name": "food-delivery",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ShahAnuj2610/tomato-food-delivery.git"
-  },
+
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
