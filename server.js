@@ -9,7 +9,10 @@ const restaurants = require("./routes/api/restaurant");
 const meals = require("./routes/api/meal");
 const orders = require("./routes/api/order");
 
+const cors = require('cors');
+
 const app = express();
+app.use(cors());
 
 // Bodyparser middleware
 app.use(
